@@ -15,6 +15,6 @@ export class ProductAddComponent {
 
    onSubmit() {
        this.productService.addProduct(this.model);
-  
+       this.router.navigate(['/list']);
    }
 }
